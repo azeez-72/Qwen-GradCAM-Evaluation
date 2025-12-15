@@ -11,7 +11,7 @@ The MuSciClaims benchmark evaluates scientific claim verification using informat
 * **GPU Runtime**: These notebooks require a GPU. The code is optimized for CUDA execution (T4 or A100 recommended).
 * **Data Files**:
     * **Test Dataset**: The notebook downloads the claims and labels remotely from hugging face.
-    * **Image Dataset**: A collection of scientific figure images referenced in the dataset.
+    * **Image Dataset**: A collection of scientific figure images referenced in the dataset. [Link to Image Dataset][https://drive.google.com/file/d/1_24AXdQvJ8S98WjYdFZ4-bqhBJB72HvF/view?usp=share_link]
 
 ## 🚀 Setup Instructions
 
