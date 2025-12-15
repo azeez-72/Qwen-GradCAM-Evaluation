@@ -11,7 +11,7 @@ The MuSciClaims benchmark evaluates scientific claim verification using informat
 * **GPU Runtime**: These notebooks require a GPU. The code is optimized for CUDA execution (T4 or A100 recommended).
 * **Data Files**:
     * **Test Dataset**: The notebook downloads the claims and labels remotely from hugging face.
-    * **Image Dataset**: A collection of scientific figure images referenced in the dataset. [Link to Image Dataset][https://drive.google.com/file/d/1_24AXdQvJ8S98WjYdFZ4-bqhBJB72HvF/view?usp=share_link]
+    * **Image Dataset**: A collection of scientific figure images referenced in the dataset. 
 
 ## 🚀 Setup Instructions
 
@@ -22,7 +22,7 @@ The code expects a specific folder structure in your Google Drive to locate the 
 2.  Create a new folder named `VLM`.
 3.  Inside the `VLM` folder, create a subfolder named `paper_figures`.
 4.  **Upload Images**:
-    * Download the full image dataset (if provided as a ZIP).
+    * Download the full image dataset using this [Image Dataset link](https://drive.google.com/file/d/1_24AXdQvJ8S98WjYdFZ4-bqhBJB72HvF/view?usp=share_link)
     * Unzip the images and upload **all individual image files** directly into the `paper_figures` folder on Drive.
     * *Note*: The notebook will search for images at `/content/drive/MyDrive/VLM/paper_figures/[image_name]`.
 
